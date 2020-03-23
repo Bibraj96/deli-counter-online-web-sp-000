@@ -15,9 +15,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  num = 1
-  katz_deli.each do |customer|
-    puts "Welcome, #{customer}. You are number #{num} in line."
-    num += 1
-  end
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end

@@ -26,5 +26,6 @@ def now_serving(katz_deli)
     katz_deli.each do |customer|
       puts "Currently serving #{customer}"
       katz_deli.unshift()
+    end
   end
 end

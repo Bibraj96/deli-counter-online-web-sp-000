@@ -1,3 +1,3 @@
-def line
+def line(kats_deli)
 
 end
